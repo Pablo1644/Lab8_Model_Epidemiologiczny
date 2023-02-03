@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "8-model epidemiologiczny"
+version = "0.1.0"
+description = ""
+authors = ["Pablo1644 <pawel.wagrodzki@gmail,com>"]
+readme = "README.md"
+packages = [{include = "8_model epidemiologiczny"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bokeh = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
